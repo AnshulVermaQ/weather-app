@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Piazzolla', serif;
+}
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: #302f2f;
+    overflow: hidden;
+}
+
+/* Style for the navbar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+/* Change the color of navbar links when you hover over them */
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(44, 40, 40);
+}
+h4{
+    text-align: left;
+    align-items: left;
+    color: white;
+}
+.main_header-left{
+    height:70;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h5{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(81, 81, 81);
+    color: azure;
+    margin-top: 200px;
+}
+h2{
+    font-weight: 700;
+}
+
+.main_header-right figure img{
+filter: drop-shadow(0 0.5rem 1rem rgba(0,0,0,0.3));
+}
+.main_header-right{
+    height:70;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+
